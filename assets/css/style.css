@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70vw;
+    min-width: 576px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head-image {
+    background-color: white;
+    background-image: url(../images/head-image.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 500px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 0 0 15px 15px;
+}
+
+.person-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px gray;
+    margin: -225px auto 0 auto;
+}
